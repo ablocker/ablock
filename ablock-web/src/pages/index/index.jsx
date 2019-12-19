@@ -50,7 +50,7 @@ export default class index extends Component {
                 <Navigation />
                 <Welcome/>
                 <div className="container">
-                    <Title title="孩子为什么要学编程"/>
+                    <Title title="孩子为什么要学编程222222"/>
                     <Subtitle subtitle="提高核心竞争力，立足未来社会"/>
                     <Row gutter={24}>
                         <Col xs={24} md={8} className="col-top">
