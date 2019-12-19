@@ -1,0 +1,132 @@
+.course-step {
+  color: black;
+  .course-step-xueqian {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 262px;
+    .course-step-xueqian-yinshen-border{
+      border-right: 3px solid #36BFC4;
+      border-bottom: 3px solid #36BFC4;
+      width: 152px;
+      height: 50px;
+      font-size: 25px;
+      text-align: center;
+    }
+    .course-step-xueqian-border {
+      padding-left: 20px;
+      ul{
+        li{
+          list-style-type: disc;
+        }
+      }
+    }
+  }
+
+  .course-step-xiaoxue {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 300px;
+    .course-step-xiaoxue-yinshen-border{
+      border-right: 3px solid #36BFC4;
+      border-bottom: 3px solid #36BFC4;
+      width: 152px;
+      height: 50px;
+      font-size: 25px;
+      text-align: center;
+    }
+    .course-step-xiaoxue-border {
+      padding-left: 30px;
+      margin-top: 15px;
+      ul{
+        li{
+          list-style-type: disc;
+        }
+      }
+    }
+    .img{
+      height: 150px;
+      padding-top: 20px;
+    }
+  }
+
+  .course-step-chuzhong {
+    width: 150px;
+    height: 348px;
+    .course-step-chuzhong-yinshen-border{
+      border-right: 3px solid #36BFC4;
+      border-bottom: 3px solid #36BFC4;
+      width: 153px;
+      height: 50px;
+      font-size: 25px;
+      text-align: center;
+    }
+    .course-step-chuzhong-border {
+      padding-left: 30px;
+      margin-top: 15px;
+      ul{
+        li{
+          list-style-type: disc;
+        }
+      }
+    }
+    .img{
+      margin-top: 15px;
+      height: 150px;
+    }
+  }
+
+  .course-step-gaozhong {
+    width: 150px;
+    height: 397px;
+    .course-step-gaozhong-yinshen-border{
+      border-right: 3px solid #36BFC4;
+      border-bottom: 3px solid #36BFC4;
+      width: 153px;
+      height: 50px;
+      font-size: 25px;
+      text-align: center;
+    }
+    .course-step-gaozhong-border {
+      padding-left: 30px;
+      margin-top: 15px;
+      ul{
+        li{
+          list-style-type: disc;
+        }
+      }
+    }
+    .img{
+      margin-top: 22px;
+      height: 150px;
+    }
+  }
+
+  .course-step-daxue {
+    width: 150px;
+    height: 476px;
+    .course-step-daxue-yinshen-border{
+      border-bottom: 3px solid #36BFC4;
+      width: 150px;
+      height: 80px;
+      font-size: 25px;
+      text-align: center;
+    }
+    .course-step-daxue-border {
+      padding-left: 30px;
+      margin-top: 15px;
+      ul{
+        li{
+          list-style-type: disc;
+        }
+      }
+    }
+    .img{
+      margin-top: 73px;
+      height: 150px;
+    }
+  }
+}

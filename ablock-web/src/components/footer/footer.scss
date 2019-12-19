@@ -1,0 +1,28 @@
+.footer-wrapper{
+  background-color: #313131;
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 70px;
+  text-align: left;
+  .footer-container{
+    padding-left: 20px;
+    text-align: center;
+    h2{
+      padding-top: 80px;
+      color: #fff;
+      margin-bottom: 25px;
+    }
+    p{
+      line-height: 20px;
+    }
+    .icon{
+      display: inline-block;
+      margin-right: 15px;
+      font-size: 15px;
+    }
+    .footer-img{
+      margin: 0 auto;
+      max-width: 150px;
+    }
+  }
+}

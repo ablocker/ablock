@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/ablock-web/node_modules
+
+/ablock-web/build
+
+# misc
+/ablock-web/.DS_Store
+/ablock-web/.env.local
+/ablock-web/.env.development.local
+/ablock-web/.env.test.local
+/ablock-web/.env.production.local
+
+/ablock-web/npm-debug.log*
+/ablock-web/yarn-debug.log*
+/ablock-web/yarn-error.log*
+
+/ablock-web/.idea/*
+/ablock-web/package-lock.json
+
+/.idea/*
+
+/ablock.pem
+

@@ -1,0 +1,63 @@
+.index-wrapper{
+  width: 100%;
+  .container{
+    padding: 100px 10%;
+    .news{
+      margin-left: 20px;
+      li{
+        list-style:disc;
+      }
+      font-size: 15px;
+      color: black;
+      line-height: 25px;
+    }
+    .col-top{
+      margin-top: 20px;
+      .pic-circle{
+        width: 140px;
+        height: 140px;
+        margin: 0 auto;
+        img{
+          border-radius: 50%;
+        }
+      }
+    }
+    .company-intro{
+      font-size: 15px;
+      color: black;
+      line-height: 25px;
+      padding-top: 20px;
+      text-indent: 40px;
+    }
+    .zhiliyu-container{
+      padding-top: 20px;
+      .zhiliyu-intro{
+        font-size: 15px;
+        color: black;
+        line-height: 25px;
+        text-indent: 40px;
+        overflow: hidden;
+      }
+      .zhiliyu-li{
+        margin-top: 20px;
+        color: black;
+        display: flex;
+        padding-left:40px;
+        .zhiliyu-li-icon{
+          width: 20px;
+        }
+        .zhiliyu-li-span{
+          display: inline-block;
+          margin-left: 10px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .bg-gray{
+    background: #F6F6F6;
+  }
+  .bg-white{
+    background: white;
+  }
+}

@@ -1,0 +1,128 @@
+.welcome {
+  .particles {
+    width: 100%;
+    height: 500px;
+    background: #333;
+    position: absolute;
+  }
+
+  .welcome-container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      color: #fff;
+      font-size: 55px;
+      font-weight: bold;
+      margin-top:100px ;
+      .code-model-world {
+        color: #36BFC4;
+      }
+    }
+
+    .subtitle {
+      color: #fff;
+      font-weight: 300;
+      font-size: 15px;
+      padding: 0;
+      align-self: center;
+    }
+
+    .button-head {
+      .button {
+        margin-top: 55px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+      }
+      .button .btn{
+        font-weight:500;
+        font-size:15px;
+        height:45px;
+        color:#36BFC4;
+        display:inline-block;
+        line-height:45px;
+        padding:0 45px 0 45px;
+      }
+      .button .btn::before {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        height: 2px;
+        width: 40px;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        background:#36BFC4;
+      }
+
+      .button:hover .btn::before {
+        width: 100%;
+      }
+
+      .button .btn:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        height: 30px;
+        width: 2px;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        background:#36BFC4;
+
+      }
+
+      .button:hover .btn::after {
+        height: 100%;
+      }
+
+      .button span::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 2px;
+        width: 40px;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        background:#36BFC4;
+      }
+
+      .button:hover span::before {
+        width: 100%;
+        background:#36BFC4;
+      }
+
+      .button span::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 30px;
+        width: 2px;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        background:#36BFC4;
+      }
+
+      .button:hover span::after {
+        height: 100%;
+      }
+    }
+  }
+}
+

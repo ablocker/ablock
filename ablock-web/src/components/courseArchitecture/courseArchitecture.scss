@@ -1,0 +1,169 @@
+.course-wrapper {
+  text-align: center;
+  color: black;
+  overflow: hidden;
+  word-wrap: break-word;
+  .border {
+    border: white 0.5px solid;
+  }
+
+  .title-bg {
+    background: #E0E0E0;
+  }
+
+  .subtitle-bg {
+    background: #F5F5F5;
+  }
+
+  .course-title {
+    line-height: 41px;
+    height: 41px;
+    font-size: 20px;
+    border: white 0.5px solid;
+    overflow: hidden;
+  }
+
+  .course-target-title {
+    height: 41px;
+    font-weight: bold;
+    border: white 0.5px solid;
+  }
+
+  .course-target {
+    height: 41px;
+    line-height: 41px;
+    border: white 0.5px solid;
+    overflow: hidden;
+  }
+
+  .course-set {
+    border: white 0.5px solid;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .subtitle-wrapper {
+    overflow: hidden;
+
+    .subtitle {
+      .subtitle-1 {
+        height: 42px;
+        .grading {
+          border: white 0.5px solid;
+          background: #E0E000;
+        }
+      }
+
+      .subtitle-2 {
+        height: 42px;
+        line-height: 42px;
+        .grading {
+          background: #E0E000;
+          border: white 0.5px solid;
+        }
+      }
+
+    }
+  }
+
+  .building-block {
+    .building-block-1 {
+      height: 120px;
+      line-height: 120px;
+
+      .modeling {
+        height: 40px;
+        line-height: 40px;
+        overflow: hidden;
+        background: #A8ADFF;
+      }
+
+      .knowing {
+        height: 80px;
+        line-height: 80px;
+        background: #A8ADFF;
+      }
+
+      .Ablock {
+        display: table-cell;
+        vertical-align: middle;
+        word-wrap: break-word;
+        height: 120px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .loT {
+    height: 60px;
+    .loT-container {
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+  }
+  .loT-bg{
+    background: #A8ADFF;
+    overflow: hidden;
+  }
+
+  .code-bg {
+    background: #FFB675;
+    overflow: hidden;
+  }
+
+  .science-bg {
+    background: #FEAADF;
+    overflow: hidden;
+  }
+
+  .robot-bg {
+    background: #8CFF8A;
+    overflow: hidden;
+  }
+
+  .robot {
+    height: 90px;
+    .robot-container {
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+  }
+
+  .code {
+    height: 240px;
+
+    .code-container {
+      height: 240px;
+      overflow: hidden;
+
+      .arduino-wrapper {
+        .arduino {
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+        }
+      }
+
+      .open {
+        height: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+
+    }
+  }
+
+}

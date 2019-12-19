@@ -1,0 +1,27 @@
+.history-wrapper{
+  width: 100%;
+  .container{
+    width: 80%;
+    padding: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    .left{
+      text-align: left;
+    }
+    .history-description{
+      width: 100%;
+      color: black;
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+    .history-img{
+      width: 100%;
+    }
+    .history-img-title{
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+}

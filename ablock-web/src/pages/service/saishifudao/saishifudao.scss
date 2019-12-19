@@ -1,0 +1,33 @@
+.aijinxiaoyuan {
+  .aijinxiaoyuan-container {
+    padding: 100px 10%;
+    .col-top{
+      margin-top: 40px;
+      .col-top-img-wrapper{
+        width: 200px;
+        margin: 0 auto;
+        .col-top-img{
+          width: 200px;
+          height: 200px;
+        }
+        .col-top-img-circle{
+          width: 200px;
+          height: 200px;
+          img{
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+    .subtitle{
+      margin: 30px;
+      color: black;
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+  .bg-gray {
+    background: #F6F6F6;
+  }
+
+}

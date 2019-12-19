@@ -1,0 +1,29 @@
+.slider-content {
+  height: 800px;
+  background: #1b6d85;
+  position: relative;
+  img{
+    position: fixed;
+    height: 100%;
+  }
+  .course-img-title{
+    position: absolute;
+    right: 100px;
+    top:30px;
+    width: 300px;
+    height: 740px;
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    opacity: 0.8;
+    background: black;
+  }
+}
+@media screen and (max-width: 480px) {
+  .slider-content{
+    height: 300px;
+    .course-img-title{
+      height: 240px;
+    }
+  }
+}

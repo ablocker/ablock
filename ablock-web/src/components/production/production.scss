@@ -1,0 +1,26 @@
+.production{
+  padding: 60px 10%;
+  .production-contain{
+    .production-img{
+      width: 100%;
+      max-height: 330px;
+    }
+    .production-title{
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
+      color: #000000;
+    }
+    .production-intro{
+      text-align: left;
+      line-height: 24px;
+      width: 90%;
+      font-size: 15px;
+      margin: 30px auto 0;
+      color: #000000;
+    }
+  }
+}
+.bg-gray{
+  background: #F6F6F6;
+}

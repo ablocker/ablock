@@ -1,0 +1,74 @@
+.jigoujiameng {
+  .jigoujiameng-container {
+    padding: 100px 10%;
+
+    .subtitle {
+      margin: 30px;
+      color: black;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .tongdian {
+      margin-top: 50px;
+
+      .tongdian-img {
+        width: 200px;
+        height: 300px;
+        margin: 0 auto;
+
+        img {
+          height: 100%;
+        }
+      }
+
+      .title {
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+      }
+
+      .content {
+        font-size: 15px;
+        color: black;
+      }
+    }
+
+    .education {
+      margin-top: 50px;
+
+      .education-sub {
+        display: flex;
+        justify-content: center;
+
+        .img-wrapper {
+          img {
+            height: 100%;
+          }
+        }
+      }
+
+      .education-icon {
+        margin-top: 20px;
+        color: black;
+        overflow: hidden;
+
+        .education-icon-icon {
+          display: inline-block;
+          width: 20px;
+          float: left;
+        }
+
+        .education-icon-span {
+          display: block;
+          margin-left: 30px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .bg-gray {
+    background: #F6F6F6;
+  }
+}

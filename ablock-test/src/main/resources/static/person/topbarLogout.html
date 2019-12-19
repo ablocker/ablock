@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="topbar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="pull-right">
+						<a href="/index.html">主页</a>
+						<span>&nbsp&nbsp</span> <i class="fa fa-sign-out" style="color: #fdd428;"></i>
+						<a href="/index.html" id="signout">退出</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(function() {
+			$("#signout").live("click", function() {
+				//delCookie(username);
+				$.cookie("username", null, {path:"/"});
+			});
+		});
+
+		function delCookie(name) {
+			var expires = new Date();
+			expires.setTime(expires.getTime() - 1);
+			document.cookie = name + "=" + name + ";expires=" + expires.toGMTString();
+		}
+	</script>
+</body>
+</html>

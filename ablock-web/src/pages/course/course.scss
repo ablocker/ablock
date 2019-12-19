@@ -1,0 +1,33 @@
+.course{
+  .course-container{
+    padding: 100px 10%;
+    .col-top{
+      margin-top: 20px;
+      .pic-circle{
+        width: 140px;
+        height: 140px;
+        margin: 0 auto;
+        img{
+          border-radius: 0%;
+        }
+      }
+    }
+    .subtitle{
+      color: black;
+      font-size: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+  .course-architecture-container{
+    padding: 100px 5%;
+    .subtitle{
+      color: black;
+      font-size: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+}

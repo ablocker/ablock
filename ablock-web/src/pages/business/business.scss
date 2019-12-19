@@ -1,0 +1,67 @@
+.business {
+  .business-intramural {
+    margin-top: 3px;
+    padding: 100px 10%;
+    .business-intramural-img-wrapper {
+      width: 100%;
+      display: flex;
+      .business-intramural-img-container {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .business-intramural-p{
+      color: black;
+      font-size: 15px;
+      width: 90%;
+      margin: 30px auto;
+    }
+    .subtitle{
+      margin: 30px;
+      color: black;
+      font-size: 15px;
+      text-align: center;
+    }
+    .education{
+      margin-top: 50px;
+      .education-sub{
+        display: flex;
+        justify-content: center;
+        .img-wrapper{
+          img{
+            height: 100%;
+          }
+        }
+      }
+      .education-icon{
+        margin-top: 20px;
+        color: black;
+        overflow: hidden;
+        .education-icon-icon{
+          display: inline-block;
+          width: 20px;
+          float: left;
+        }
+        .education-icon-span{
+          display: block;
+          margin-left: 30px;
+          font-size: 15px;
+
+        }
+      }
+      .guojihezuo-left{
+        float: right;
+        margin-top: 10px;
+        margin-right: 5px;
+      }
+      .guojihezuo-right{
+        margin-top: 10px;
+        margin-left: 5px;
+      }
+    }
+
+  }
+
+}
