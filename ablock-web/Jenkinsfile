@@ -3,7 +3,7 @@ pipeline{
 	agent any
 
 	environment {
-		REPOSITORY="https://github.com/zhangfuli/ablock.git"
+		REPOSITORY="https://github.com/ablocker/ablock.git"
 		SERVICE_DIR="ablock-web"
 		DOCKER_REGISTRY="zhangfuli/ablock-web"
 	}
